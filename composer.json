@@ -1,0 +1,38 @@
+{
+  "name": "ofumbi/omnipay-advcash",
+  "type": "library",
+  "description": "Advcash gateway for Omnipay payment processing library",
+  "keywords": [
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "advcash",
+    "purchase"
+  ],
+  "homepage": "https://appfinex.com",
+  "license": "",
+  "authors": [
+    {
+      "name": "Ofumbi Stephen",
+      "email": "ofuzak@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Advcash\\": "src/"
+    }
+  },
+  "require": {
+    "omnipay/common": "~3.0"
+  },
+  "require-dev": {
+    "omnipay/tests": "~3.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.x-dev"
+    }
+  }
+}
